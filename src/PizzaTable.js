@@ -2,7 +2,6 @@ import { Table, Column, HeaderCell, Cell } from 'rsuite-table';
 import 'rsuite-table/dist/css/rsuite-table.css'
 
 const PizzaTable = ({data}) => {
-  console.log(data)
   return(
     <Table autoHeight data={data} rowHeight={50}>
       <Column width={150} minwidth={150} fixed>
